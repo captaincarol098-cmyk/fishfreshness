@@ -1,0 +1,42 @@
+# ===== Python =====
+tf_env/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== Datasets (large local image corpora) =====
+FishFreshnessApp/dataset/
+
+# ===== Exported model artifacts (regenerable from *.keras) =====
+fish_model_keras/
+
+# ===== Flutter / Dart build output =====
+FishFreshnessApp/build/
+FishFreshnessApp/.dart_tool/
+FishFreshnessApp/.flutter-plugins
+FishFreshnessApp/.flutter-plugins-dependencies
+FishFreshnessApp/.packages
+FishFreshnessApp/android/.gradle/
+FishFreshnessApp/android/.kotlin/
+FishFreshnessApp/android/build/
+FishFreshnessApp/android/local.properties
+FishFreshnessApp/android/app/debug/
+FishFreshnessApp/android/app/profile/
+FishFreshnessApp/android/app/release/
+
+# ===== IDE =====
+FishFreshnessApp/.idea/
+FishFreshnessApp/*.iml
+FishFreshnessApp/android/*.iml
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Env / secrets =====
+.env
+.env.*
+!.env.example
